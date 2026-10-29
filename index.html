@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light">
     <title>San Pompilio María Pirrotti - Rostros de la Santidad Escolapia</title>
-    <!-- el css se agrega en la fase 3 -->
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
@@ -250,11 +250,41 @@
                     <label for="p3c">1966</label>
                 </fieldset>
 
+                <fieldset class="pregunta">
+                    <legend>4. ¿En qué ciudad murió?</legend>
+                    <input type="radio" name="pregunta4" id="p4a" value="napoles">
+                    <label for="p4a">Nápoles</label><br>
+                    <input type="radio" name="pregunta4" id="p4b" value="campi-salentina">
+                    <label for="p4b">Campi Salentina</label><br>
+                    <input type="radio" name="pregunta4" id="p4c" value="roma">
+                    <label for="p4c">Roma</label>
+                </fieldset>
+
+                <fieldset class="pregunta">
+                    <legend>5. ¿Qué fundador de las Escuelas Pías inspiró su carisma?</legend>
+                    <input type="radio" name="pregunta5" id="p5a" value="francisco">
+                    <label for="p5a">San Francisco de Asís</label><br>
+                    <input type="radio" name="pregunta5" id="p5b" value="ignacio">
+                    <label for="p5b">San Ignacio de Loyola</label><br>
+                    <input type="radio" name="pregunta5" id="p5c" value="calasanz">
+                    <label for="p5c">San José de Calasanz</label>
+                </fieldset>
+
+                <fieldset class="pregunta">
+                    <legend>6. ¿Qué repartió durante la hambruna de 1765?</legend>
+                    <input type="radio" name="pregunta6" id="p6a" value="pan">
+                    <label for="p6a">Pan</label><br>
+                    <input type="radio" name="pregunta6" id="p6b" value="ropa">
+                    <label for="p6b">Ropa</label><br>
+                    <input type="radio" name="pregunta6" id="p6c" value="monedas">
+                    <label for="p6c">Monedas</label>
+                </fieldset>
+
                 <button type="button" id="btn-resultado">Ver resultado</button>
+                <button type="button" id="btn-reiniciar">Volver a intentar</button>
             </form>
 
             <p id="resultado"></p>
-            <!-- el javascript de la trivia va en la fase 4 -->
         </section>
 
         <section id="fuentes">
@@ -265,7 +295,6 @@
                 <li>Wikipedia (en inglés): <a href="https://en.wikipedia.org/wiki/Pompilio_Maria_Pirrotti" target="_blank">Pompilio Maria Pirrotti</a></li>
                 <li>Piaristen Österreich (escolapios de Austria): <a href="https://www.piaristen.at/nachtrag-heiliger-pompilius-maria-pirotti/" target="_blank">Heiliger Pompilius Maria Pirotti</a></li>
                 <li>Piaristen Österreich (escolapios de Austria): <a href="https://piaristen.at/?p=2312" target="_blank">Pompilio Maria Pirrotti</a></li>
-                <!-- FALTA: poner de dónde sacamos las imágenes y lo de la carpeta del Hno. Santiago -->
             </ul>
         </section>
 
@@ -275,7 +304,7 @@
         <p>Trabajo realizado por Francisco Chierico y Valentino Rodríguez - 3.º C</p>
         <p>Taller de Informática - Prof. Marynellis Zambrano V.</p>
     </footer>
-    <section id="quiz">
-<script src="js/quiz.js"></script> 
+
+    <script src="js/quiz.js"></script>
 </body>
 </html>
