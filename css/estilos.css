@@ -1,8 +1,3 @@
-/* Estilos de la página de San Pompilio María Pirrotti
-   Taller de Informática - 3.º C
-   Chierico Francisco y Rodríguez Valentino
-   Colores: verde, marrón y beige (colores de la naturaleza) */
-
 * {
     box-sizing: border-box;
 }
@@ -24,7 +19,7 @@ a {
     color: #8a5a2b;
 }
 
-/* ----- encabezado y menú ----- */
+
 header {
     background-color: #4b6a3d;
     color: white;
@@ -67,7 +62,7 @@ nav a:hover {
     color: #333333;
 }
 
-/* ----- contenido ----- */
+
 main {
     max-width: 850px;
     margin: 0 auto;
@@ -87,7 +82,7 @@ section h2 {
     border-bottom: 2px solid #4b6a3d;
 }
 
-/* ----- imágenes ----- */
+
 figure {
     text-align: center;
     margin: 15px 0;
@@ -104,7 +99,7 @@ figcaption {
     font-style: italic;
 }
 
-/* ----- nota, cita y ficha ----- */
+
 aside {
     background-color: #f7f0d0;
     padding: 5px 15px;
@@ -125,7 +120,7 @@ blockquote {
     margin-top: 8px;
 }
 
-/* ----- tabla ----- */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -186,7 +181,7 @@ button:hover {
     color: #4b6a3d;
 }
 
-/* ----- pie de página ----- */
+
 footer {
     background-color: #4b6a3d;
     color: white;
