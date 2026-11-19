@@ -1,9 +1,4 @@
-// ============================================================
-// Trivia: ¿cuánto sabés de San Pompilio?
-// Proyecto Web - Rostros de la Santidad Escolapia
-// Taller de Informática - 3.º C - Fase 4: JavaScript
-// Integrantes: Chierico Francisco y Rodríguez Valentino
-// ============================================================
+
 
 // 1) ELEMENTOS DEL HTML que vamos a usar
 const formulario = document.getElementById("form-trivia");
